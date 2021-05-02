@@ -1,0 +1,202 @@
+body{
+    font-size: var(--size);
+}
+
+.flexbox-container{
+    display: flex;
+    width: 800px;
+    height: 450px;
+    padding: 14% 30%;
+}
+
+.heading{
+    font-family: var(--header);
+    color: var(--rest);
+}
+
+
+.button{
+    font-family: var(--body);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 23px;
+    margin-top: 70px;
+    color:  hsl(31, 77%, 52%);
+    
+    
+}
+
+.button2{
+    font-family: var(--body);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 23px;
+    margin-top: 70px;
+    color: hsl(184, 100%, 22%);
+    
+    
+}
+
+.button3{
+    font-family: var(--body);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 23px;
+    margin-top: 70px;
+    color: hsl(179, 100%, 13%);
+    
+    
+}
+
+
+
+
+
+
+
+.sedan{
+   background-color:  hsl(31, 77%, 52%);
+   font-family: var(--body);
+   color: var(--paragraphs);
+   font-size: var(--size);
+   padding: 50px 50px;
+   border-radius: 10px 0px 0px 10px;
+
+}
+
+
+.suv{
+    background-color:  hsl(184, 100%, 22%);
+    font-family: var(--body);
+    color: var(--paragraphs);
+    font-size: var(--size);
+    padding: 50px 50px;
+}
+
+.luxury{
+    background-color:  hsl(179, 100%, 13%);
+    font-family: var(--body);
+    color: var(--paragraphs);
+    font-size: var(--size);
+    padding: 50px 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+:root{
+    --header: 'Big Shoulders Display', cursive; 
+    --body: 'Lexend Deca', sans-serif;
+    --paragraphs: hsla(0, 0%, 100%, 0.75);
+    --rest: hsl(0, 0%, 95%);
+    --size: 15px;
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .flexbox-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 270px;
+        height: 100px;
+        padding: 14% 30%;
+    }
+
+    .heading{
+        font-family: var(--header);
+        color: var(--rest);
+    }
+    
+    
+    .button{
+        font-family: var(--body);
+        border: none;
+        border-radius: 50px;
+        padding: 10px 23px;
+        margin-top: 10%;
+        
+        
+        
+        
+    }
+    
+    .button2{
+        font-family: var(--body);
+        border: none;
+        border-radius: 50px;
+        padding: 10px 23px;
+        margin-top: 10%;
+        color: hsl(184, 100%, 22%);
+        
+        
+    }
+    
+    .button3{
+        font-family: var(--body);
+        border: none;
+        border-radius: 50px;
+        padding: 10px 23px;
+        margin-top: 10%;
+        color: hsl(179, 100%, 13%);
+        
+        
+    }
+    
+
+
+
+    .sedan{
+       background-color:  hsl(31, 77%, 52%);
+       font-family: var(--body);
+       color: var(--paragraphs);
+       font-size: var(--size);
+       padding: 50px 50px;
+       border-radius: 10px 10px 0px 0px;
+    
+    }
+    
+    
+    .suv{
+        background-color:  hsl(184, 100%, 22%);
+        font-family: var(--body);
+        color: var(--paragraphs);
+        font-size: var(--size);
+        padding: 50px 50px;
+    }
+    
+    .luxury{
+        background-color:  hsl(179, 100%, 13%);
+        font-family: var(--body);
+        color: var(--paragraphs);
+        font-size: var(--size);
+        padding: 50px 50px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+
+
+
+
+}
+
+
+    
+
+/* Page Style Notes
+
+BODY FONT
+font-family: 'Lexend Deca', sans-serif;
+
+HEADER FONT
+font-family: 'Big Shoulders Display', cursive; 
+
+Font size 15px
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+Mobile: 375px
+
+*/
+
